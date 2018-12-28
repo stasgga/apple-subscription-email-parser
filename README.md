@@ -4,11 +4,13 @@ Processes subscription confirmation emails from iTunes in order to a renewal dat
 
 ## How to use
 
-1. Just for now you need to download an email and save it as `original_msg.txt`
+1. Just for now you need to download an email and save it as `original_msg.txt`, e.g.
+
+![email preview](https://i.imgur.com/QqVGIPE.png)
 
 2. `yarn`
 
-3. Then when you run `node index.js` you should get something like...
+3. Then when you run `node index.js` you should get something like
 
 ```javascript
 {
