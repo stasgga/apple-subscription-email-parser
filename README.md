@@ -1,6 +1,6 @@
 # Apple Subscription Email Parser
 
-Processes subscription confirmation emails from iTunes in order to a renewal date reminder in case you wish to cancel before being charged.
+Processes subscription confirmation emails from iTunes in order to a generate a renewal date reminder in case you wish to cancel before being charged.
 
 ## How to use
 
