@@ -1,10 +1,10 @@
-# Apple Subscription Email Parser
+# Apple Subscription Email Parser
 
 Processes subscription confirmation emails from iTunes in order to a renewal date reminder in case you wish to cancel before being charged.
 
 ## How to use
 
-1. Currently you need to download an email and save it as `original_msg.txt`
+1. Just for now you need to download an email and save it as `original_msg.txt`
 
 2. `yarn`
 
