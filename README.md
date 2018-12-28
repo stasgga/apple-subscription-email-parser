@@ -15,9 +15,9 @@ Processes subscription confirmation emails from iTunes in order to a renewal dat
   subscription: 'VIP All Access Pass',
   app: 'The Piano Keyboard',
   img: 'https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/a1/1c/8f/a11c8f02-bea9-881a-8642-547957853f19/AppIcon-0-1x_U007emarketing-0-0-85-220-6.png/280x280bb-80.jpg',
-  dop: '2018-12-28T00:00:00.000Z',
   price: '£7.49/week',
   paymentMethod: 'MasterCard .... 1234',
+  dateOfPurchase: '2018-12-28T00:00:00.000Z',
   cancelBy: '2019-01-03T00:00:00.000Z'
 }
 ```

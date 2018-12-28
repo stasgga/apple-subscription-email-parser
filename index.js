@@ -17,9 +17,9 @@ readFile("original_msg.txt", async (err, data) => {
     subscription: parsed.text.match(/Subscription: (.+)/)[1],
     app: parsed.text.match(/App: (.+)/)[1],
     img: $("img.large-artwork").attr("src"),
-    dop: new Date(parsed.text.match(/Date of Purchase: (.+)/)[1]),
     price,
     paymentMethod,
+    dateOfPurchase: new Date(parsed.text.match(/Date of Purchase: (.+)/)[1]),
     cancelBy: new Date(parsed.text.match(/unless cancelled by (.+)./)[1])
   };
   console.log(p);
